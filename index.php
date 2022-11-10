@@ -36,7 +36,7 @@ if(isset($_POST['send'])){
    <!-- aos css link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-   <!-- custom css file link  -->
+   <!--  css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -57,7 +57,7 @@ if(isset($message)){
 
 ?>
 
-<!-- header section starts  -->
+<!-- header  starts  -->
 
 <header class="header">
 
@@ -83,9 +83,9 @@ if(isset($message)){
 
 </header>
 
-<!-- header section ends -->
+<!-- header  ends -->
 
-<!-- home section starts  -->
+<!-- home  starts  -->
 
 <section class="home" id="home">
 
@@ -102,9 +102,9 @@ if(isset($message)){
 
 </section>
 
-<!-- home section ends -->
+<!-- home  ends -->
 
-<!-- about section starts  -->
+<!-- about  starts  -->
 
 <section class="about" id="about">
 
@@ -227,109 +227,19 @@ if(isset($message)){
 
 </section>
 
-<!-- about section ends -->
+<!-- about  ends -->
 
-<!-- services section starts  -->
 
-<!--<section class="services" id="services">
 
-   <h1 class="heading" data-aos="fade-up"> <span>services</span> </h1>
 
-   <div class="box-container">
 
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-code"></i>
-         <h3>web development</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
-      </div>
 
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-paint-brush"></i>
-         <h3>graphic design</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
-      </div>
 
-      <div class="box" data-aos="zoom-in">
-         <i class="fab fa-bootstrap"></i>
-         <h3>bootstrap</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
-      </div>
 
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-chart-line"></i>
-         <h3>seo marketing</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
-      </div>
 
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-bullhorn"></i>
-         <h3>digital marketing</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
-      </div>
 
-      <div class="box" data-aos="zoom-in">
-         <i class="fab fa-wordpress"></i>
-         <h3>wordpress</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
-      </div>
 
-   </div>
-
-</section> -->
-
-<!-- services section ends -->
-
-<!-- portfolio section starts  -->
-
-<!--<section class="portfolio" id="portfolio">
-
-   <h1 class="heading" data-aos="fade-up"> <span>portfolio</span> </h1>
-
-   <div class="box-container">
-
-      <div class="box" data-aos="zoom-in">
-         <img src="images/img-1.jpg" alt="">
-         <h3>web development</h3>
-         <span>( 2020 - 2022 )</span>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <img src="images/img-2.jpg" alt="">
-         <h3>web development</h3>
-         <span>( 2020 - 2022 )</span>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <img src="images/img-3.jpg" alt="">
-         <h3>web development</h3>
-         <span>( 2020 - 2022 )</span>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <img src="images/img-4.jpg" alt="">
-         <h3>web development</h3>
-         <span>( 2020 - 2022 )</span>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <img src="images/img-5.jpg" alt="">
-         <h3>web development</h3>
-         <span>( 2020 - 2022 )</span>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <img src="images/img-6.jpg" alt="">
-         <h3>web development</h3>
-         <span>( 2020 - 2022 )</span>
-      </div>
-
-   </div>
-
-</section>-->
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
+<!-- contact  starts  -->
 
 <section class="contact" id="contact">
 
@@ -372,16 +282,6 @@ if(isset($message)){
 <!-- contact section ends -->
 
 <div class="credit"> &copy; copyright  <?php echo date('Y'); ?> by <span style="color:white;">Arber Gashi</span> </div>
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- custom js file link  -->
