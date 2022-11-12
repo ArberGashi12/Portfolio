@@ -16,7 +16,7 @@ CREATE TABLE `contact_form` (
 
 
 INSERT INTO `contact_form` (`id`, `name`, `email`, `number`, `message`) VALUES
-(5, 'shaikh anas', 'shaikh@gmail.com', '1234567890', 'hi, how are you?');
+(5, '', '', '', '');
 
 
 ALTER TABLE `contact_form`
